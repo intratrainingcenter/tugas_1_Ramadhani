@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+}
+.active{
+    background-color: goldenrod;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    height: 50px;
+    
+}
+.navatas{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    opacity: 0.1;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.navatas:hover{
+	opacity: 1.0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.navatas li{
+	float: left;
+	opacity: 1.0;
+}
+.img{   
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 50px 50px 50px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#cari{
+    margin: 20px 20px 0px 400px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: goldenrod;
+    margin-left: 20px;
+}
+
+.navatas li a:not(.img){
+	display: block;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.navatas li a:hover:not(.img){
+	background-color: grey;
+	color: black;
+}
+.navmenu{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 190px;
+    background-color: goldenrod;
+    position: absolute;
+    height: 100%;
+    overflow: auto;
+    opacity: 0.1;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.navmenu:hover{
+	opacity: 1.0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.container{
+    background-color: rgb(250, 203, 85);
+    width: 100%;
+    height: 100%;
+}
+.content{
+    display:inline-block;
+    border-radius: 4px;
+    padding: 50px;
+    width: 250px;
+    margin: 15px;
+    margin-left: 250px;
+    background-color: goldenrod;
+    border-radius: 20%;
+}
+.content2{
+    display:inline-block;
+    background-color: goldenrod;
+    border-radius: 4px;
+    padding: 50px;
+    width: 250px;
+    margin: 15px;
+    margin-left: 0px;
+    border-radius: 20%;
+}
+.content-us{
+    display:inline-block;
+    border-radius: 4px;
+    padding: 50px;
+    width: 150px;
+    margin: 15px;
+    margin-left: 250px;
+    background-color: goldenrod;
+    border-radius: 20%;
+}
+.content2-us{
+    display:inline-block;
+    background-color: goldenrod;
+    padding: 50px;
+    width: 250px;
+    border-radius: 20%;
+}
+.logo-us{
+    width: 150px;
+    height: 150px;
+}
+.keterangan{
+    border: #333 solid ;
+    width: 300px;
+    margin-left: -35px;
+    text-align: justify;
+    font-size: 14px;
+    padding: 2px 5px 2px 5px;
+    background-color: white;
+}
+.navmenu li a{
+	display: block;
+    color: #000;
+    font-size: 25px;
+    padding: 10px 0px 8px 70px;
+    text-decoration: none;
+    position: fixed;
+}
+.navmenu li a:hover{
+	background-color: #555;
+    color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    display: block;
+    color: white;
+    font-size: 15px;
+    padding: 10px 0px 1px 30px;
+    text-decoration: none;
+}
+.dropbtn {
+    background-color: #333;
+    color: white;
+    width: 210px;
+    padding: 10px 10px 0px 10px;
+    margin-left: -30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(158, 71, 0);
+    color: rgb(233, 240, 135);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    font-size: 10px;
+    margin-left: -50px;
+
+    padding: 12px 0px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.titleContact h1{
+	margin: 65px 0px 0px 460px;
+	color: #808080;
+}
+input[type=text] {
+    width: 33%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #3CBC8D;
+    color: white;
+    opacity: 0.7;
+}
+form{
+    margin: 62px 0px 0px 308px;
+}
+textarea {
+    width: 33%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #3CBC8D;
+    font-size: 16px;
+    resize: none;
+    opacity: 0.7;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    color: grey;
+    padding: 7px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.send{
+	background-color: grey; 
+    color: black; 
+    border: 2px solid black;
+}
+.send:hover{
+	background-color: purple;
+    color: white;
+}
+.con{
+	width: 60px;
+	height: 60px;
+}
+.logobos{
+	position: absolute;
+	right: 493px;
+	bottom: 100px;
+    background: grey;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0px -194px -5px 0px;
+    opacity: 0.8;
+    border-style: dashed;
+}
+.logobos span{
+    font-size: 40px;
+    margin: 0px 0px 0px 41px;
+}
